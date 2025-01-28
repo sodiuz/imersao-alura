@@ -173,6 +173,41 @@ body {
     border-radius: 20px;
 }
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    margin: 0px;
+    background-image: linear-gradient(to right, #AD2C99, #A03BA6, #924CB4, #835DC2, #6E78D8) ;
+    color: white;
+    width: 100vw;
+    height: 70px;
+}
+
+.footer .footer_title {
+    margin: 14px 0px 4px 10px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.footer .footer_text {
+    margin: 6px 0px 4px 10px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+}
+
+.footer .footer_button {
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: white;
+    width: 100px;
+
+}
+
 
 
 
