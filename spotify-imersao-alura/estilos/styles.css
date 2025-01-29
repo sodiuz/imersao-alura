@@ -173,39 +173,45 @@ body {
     border-radius: 20px;
 }
 
-.footer {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+.disclaimer-premium {
     position: fixed;
     bottom: 0;
-    margin: 0px;
-    background-image: linear-gradient(to right, #AD2C99, #A03BA6, #924CB4, #835DC2, #6E78D8) ;
-    color: white;
-    width: 100vw;
-    height: 70px;
-}
-
-.footer .footer_title {
-    margin: 14px 0px 4px 10px;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-}
-
-.footer .footer_text {
-    margin: 6px 0px 4px 10px;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 600;
-}
-
-.footer .footer_button {
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #519AF4, #677EDD, #7D64C7, #9646AF, #AD2B98);
+    padding: 15px 40px;
     display: flex;
-    justify-content: center;
-    color: black;
-    background-color: white;
-    width: 100px;
+    justify-content: space-between;
+}
 
+.disclaimer-premium .text {
+    flex-shrink: 0;
+}
+
+.disclaimer-premium .disclaimer-premium_title {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.disclaimer-premium .disclaimer-premium_subtitle {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.disclaimer-premium button {
+    background-color: white;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
 }
 
 
